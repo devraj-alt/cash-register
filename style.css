@@ -1,63 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 body {
-    text-align: center;
-    background-color: #DBEAFE;
-    margin: 0px;
+  text-align: center;
+  background-color: #dbeafe;
+  margin: 0px;
 }
 
 .image {
-    height: 50px;
-    width: auto;
+  height: 50px;
+  width: auto;
 }
 
 .heading {
-    font-family: Bebas Neue;
-    font-size: 50px;
+  font-family: Bebas Neue;
+  font-size: 50px;
 }
 
 .label-one {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .input-one {
-    margin: 5px;
+  margin: 5px;
 }
 
 #billAmount {
-    width: 20%;
-    height: 20px;
-    border-color: #60A5FA;
-    border-radius: 0.2rem;
+  width: 20%;
+  height: 20px;
+  border-color: #60a5fa;
+  border-radius: 0.2rem;
 }
 
 .label-two {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .input-two {
-    margin: 5px;
+  margin: 5px;
 }
 
 #cashReceived {
-    width: 20%;
-    height: 20px;
-    border-color: #60A5FA;
-    border-radius: 0.2rem;
+  width: 20%;
+  height: 20px;
+  border-color: #60a5fa;
+  border-radius: 0.2rem;
 }
 
 #btn {
-    border-radius: 0.3rem;
-    margin: 10px;
-    font-weight: bold;
-    background-color: #60A5FA;
-    width: 100px;
-    height: 25px;
-    cursor: pointer;
+  border-radius: 0.3rem;
+  margin: 10px;
+  font-weight: bold;
+  background-color: #60a5fa;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
 }
 
 table {
-    font-size: 20px;
-    margin: auto;
-    width: 200px;
+  font-size: 20px;
+  margin: auto;
+  width: 200px;
 }
