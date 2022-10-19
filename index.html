@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mark 10</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 class="heading">
+      <img class="image" src="payments.svg" alt="image" />
+      Cash Register
+    </h1>
+
+    <label class="label-one">Bill Amount</label>
+    <div class="input-one">
+      <input min="1" type="number" placeholder="Enter bill amount..." id="billAmount" />
+      <div id="alert-bill-msg" class="error-msg hide-error-msg">Invalid bill amount</div>
+    </div>
+
+    <label class="label-two">Cash Received</label>
+    <div class="input-two">
+      <input min="1" type="number" placeholder="Enter cash Amount..." id="cashReceived" />
+      <div id="alert-received-msg" class="error-msg hide-error-msg">Invalid received amount</div>
+    </div>
+
+    <button id="btn">Calculate</button>
+
+    <hr />
+
+    <table id="returnCash">
+      <tr>
+        <th>Note</th>
+        <th>Count</th>
+      </tr>
+    </table>
+
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
