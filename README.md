@@ -1,4 +1,5 @@
 # Cash Register
+![cash register](https://user-images.githubusercontent.com/82362100/198816516-8354a24b-5fe1-444d-97bf-ff3ebec16917.jpg)
 
 # About the project
 
